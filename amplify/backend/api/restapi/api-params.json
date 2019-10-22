@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "awsangularlambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "restapi",
+    "apiName": "restapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "awsangularlambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "aws-angular-dev-20191021223404-authRole",
+        "unAuthRoleName": "aws-angular-dev-20191021223404-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "awsangularlambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

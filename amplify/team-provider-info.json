@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "aws-angular-dev-20191021223404-authRole",
+            "UnauthRoleArn": "arn:aws:iam::701920993328:role/aws-angular-dev-20191021223404-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::701920993328:role/aws-angular-dev-20191021223404-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "aws-angular-dev-20191021223404-deployment",
+            "UnauthRoleName": "aws-angular-dev-20191021223404-unauthRole",
+            "StackName": "aws-angular-dev-20191021223404",
+            "StackId": "arn:aws:cloudformation:us-east-1:701920993328:stack/aws-angular-dev-20191021223404/6a57bf70-f474-11e9-89e0-0ae8cc519968"
+        }
+    }
+}
